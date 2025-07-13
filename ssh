@@ -112,16 +112,17 @@ while true; do
   echo
   echo -e "${GREEN}${SUCCESS_EMOJI}  SSH session started successfully!${RESET}"
   echo
-  echo -e "\033[1;32mWelcome to Your KVM-i7 VPS!\033[0m\n\n\
-\033[1;36mKey Features of Your High-Powered VPS:\033[0m\n\
-  - \033[1;34m1TBp DDOS Protection\033[0m\033[1;37m – No Chaos Allowed\033[0m\n\
-  - \033[1;34mUp to 500Mbps* Internet\033[0m\033[1;37m – Speed to Outrun Your Existential Crisis\033[0m\n\
-  - \033[1;34mHigh-Performance\033[0m\033[1;37m – Smooth Like Your Best Decision\033[0m\n\n\
-\033[1;36mEssential Resources for the Tech-Savvy Adventurer:\033[0m\n\
-  - \033[1;34mOS Documentation:\033[0m   \033[1;37mhttps://help.ubuntu.com\033[0m\n\
-  - \033[1;34mServer Management:\033[0m  \033[1;37mhttps://landscape.canonical.com\033[0m\n\
-  - \033[1;34mVPS Support/Management:\033[0m        \033[1;37mhttps://discord.gg/compute\033[0m\n\n\
-\033[1;37mReminder:\033[0m \033[1;37mNo crypto mining on KVM-i7\033[0m\033[1;36m – \033[1;37munless you want your VPS to vanish faster than your hopes and dreams.\033[0m\n"
+  echo -e "\
+\e[38;2;0;255;255mW\e[38;2;21;255;244me\e[38;2;42;255;233ml\e[38;2;63;255;222mc\e[38;2;84;255;211mo\e[38;2;105;255;200mm\e[38;2;126;255;189me\e[38;2;147;255;178m \e[38;2;168;255;167mt\e[38;2;189;255;156mo\e[38;2;210;255;145m \e[38;2;231;255;134mY\e[38;2;252;255;123mo\e[38;2;255;255;115mu\e[38;2;255;255;115mr \e[38;2;255;255;115mK\e[38;2;255;255;115mV\e[38;2;255;255;115mM\e[38;2;255;255;115m-\e[38;2;255;255;115mi\e[38;2;255;255;115m7 \e[38;2;255;255;115mV\e[38;2;255;255;115mP\e[38;2;255;255;115mS\e[38;2;255;255;115m!\e[0m\n\n\
+\e[38;2;0;255;255mK\e[38;2;21;255;244me\e[38;2;42;255;233my \e[38;2;63;255;222mK\e[38;2;84;255;211me\e[38;2;105;255;200my \e[38;2;126;255;189mH\e[38;2;147;255;178mi\e[38;2;168;255;167mg\e[38;2;189;255;156mh\e[38;2;210;255;145mt\e[38;2;231;255;134m-\e[38;2;252;255;123mP\e[38;2;255;255;115mo\e[38;2;255;255;115mw\e[38;2;255;255;115me\e[38;2;255;255;115mr\e[38;2;255;255;115md \e[38;2;255;255;115mV\e[38;2;255;255;115mP\e[38;2;255;255;115mS\e[0m\n\
+  \e[38;2;0;255;255m-\e[38;2;21;255;244m 1\e[38;2;42;255;233mTBp\e[38;2;63;255;222m DDOS Protection\e[0m \e[38;2;255;255;255m– No Chaos Allowed\e[0m\n\
+  \e[38;2;84;255;211m-\e[38;2;105;255;200m Up to 500Mbps*\e[38;2;126;255;189m Internet\e[0m \e[38;2;255;255;255m– Speed to Outrun Your Existential Crisis\e[0m\n\
+  \e[38;2;147;255;178m-\e[38;2;168;255;167m High-Performance\e[0m \e[38;2;255;255;255m– Smooth Like Your Best Decision\e[0m\n\n\
+\e[38;2;189;255;156mEssential Resources for the Tech-Savvy Adventurer:\e[0m\n\
+  \e[38;2;210;255;145m-\e[38;2;231;255;134m OS Documentation:\e[0m        \e[38;2;255;255;255mhttps://help.ubuntu.com\e[0m\n\
+  \e[38;2;252;255;123m-\e[38;2;255;255;115m Server Management:\e[0m       \e[38;2;255;255;255mhttps://landscape.canonical.com\e[0m\n\
+  \e[38;2;255;255;115m-\e[38;2;255;255;115m VPS Support/Management:\e[0m  \e[38;2;255;255;255mhttps://discord.gg/compute\e[0m\n\n\
+\e[38;2;255;255;115mReminder:\e[0m \e[38;2;255;255;255mNo crypto mining on KVM-i7\e[0m\e[38;2;189;255;156m – \e[38;2;255;255;255munless you want your VPS to vanish faster than your hopes and dreams.\e[0m\n"
   if sudo pct enter $vps_id; then
     {}
   else
